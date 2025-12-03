@@ -1,0 +1,9 @@
+//prefix and post-fix only to a variable.
+#include<stdio.h>
+int main() {
+int x, y;
+int n = 10;
+x = n++;
+y = ++n;
+printf(" x =%d, y = %d\n", x, y);
+}
